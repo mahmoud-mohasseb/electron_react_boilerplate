@@ -1,13 +1,21 @@
 
-### add config to package.json
+### Add config to package.json
  "homepage": "./",
   "main": "./electron/main.js",
     "scripts": {
   "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
   "ebuild": "npm run build && node_modules/.bin/build"
   }
-### to run electron app 
+  
+### To run electron app 
 npm run dev
+
+after finishing development app run build ..
+
+### add Assets folder 
+npm run package-mac for .dmg 
+npm run package-windows .exe 
+npm run package-linux 
 
 # Getting Started with Create React App
 
