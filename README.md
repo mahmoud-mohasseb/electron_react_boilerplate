@@ -12,7 +12,10 @@ npm run dev
 
 after finishing development app run build ..
 
-### add Assets folder 
+### add Assets folder with images depends on operating system you will export 
+ mac "icon.icns".\
+windows "icon.ico".\
+linux "icon.png".\
 npm run package-mac for .dmg.\
 npm run package-windows .exe.\
 npm run package-linux 
