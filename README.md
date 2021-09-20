@@ -1,10 +1,10 @@
 
 ### Add config to package.json
- "homepage": "./",
-  "main": "./electron/main.js",
+ "homepage": "./",.\
+  "main": "./electron/main.js",.\
     "scripts": {
-  "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
-  "ebuild": "npm run build && node_modules/.bin/build"
+  "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",.\
+  "ebuild": "npm run build && node_modules/.bin/build".\
   }
   
 ### To run electron app 
