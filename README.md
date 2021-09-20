@@ -13,8 +13,8 @@ npm run dev
 after finishing development app run build ..
 
 ### add Assets folder 
-npm run package-mac for .dmg 
-npm run package-windows .exe 
+npm run package-mac for .dmg.\
+npm run package-windows .exe.\
 npm run package-linux 
 
 # Getting Started with Create React App
