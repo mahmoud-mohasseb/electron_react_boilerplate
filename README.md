@@ -1,3 +1,14 @@
+
+### add config to package.json
+ "homepage": "./",
+  "main": "./electron/main.js",
+    "scripts": {
+  "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
+  "ebuild": "npm run build && node_modules/.bin/build"
+  }
+### to run electron app 
+npm run dev
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
